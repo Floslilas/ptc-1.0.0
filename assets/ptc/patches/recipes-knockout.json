@@ -1,0 +1,4 @@
+[
+	{ "file": "alchemy:recipes/grid/ingredient/recallbase", "op": "add", "path": "/enabled", "value": "false"},
+    { "file": "alchemy:recipes/grid/ingredient/temporalbase", "op": "add", "path": "/enabled", "value": "false"}
+]

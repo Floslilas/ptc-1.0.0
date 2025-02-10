@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "ptc",
+  "name": "ptc",
+  "description": "patch for server",
+  "author": ["FlosLilac"],
+  "version": "1.0.0",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "gameversions": [ "1.20+" ]
+}

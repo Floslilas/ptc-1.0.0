@@ -1,0 +1,42 @@
+[
+    {
+        "file": "game:config/characterclasses",
+        "op": "replace",
+        "path": "/3",
+        "value":{
+            "code": "alchemist",
+            "traits": ["potionsMaker", "furtive", "frail", "claustrophobic", "kind"],
+            "gear":[]
+        }
+    },
+    {
+        "file": "game:config/characterclasses",
+        "op": "replace",
+        "path": "/4",
+        "value":{
+            "code": "knight",
+            "traits": ["merciless", "soldier", "fighter", "ravenous", "nearsighted"],
+            "gear":[]
+        }
+    },
+    {
+        "file": "game:config/characterclasses",
+        "op": "add",
+        "path": "/6",
+        "value":{
+            "code": "craftsman",
+            "traits": ["goldenHands", "tired", "tinkerer", "heavyhanded"],
+            "gear":[]
+        }
+    },
+    {
+        "file":"game:config/characterclasses",
+        "op":"add",
+        "path":"/6",
+        "value":{
+            "code": "miner",
+            "traits": ["tired", "theMiner", "kind", "improviser", "ravenous"],
+            "gear":[]
+        }
+    }
+]

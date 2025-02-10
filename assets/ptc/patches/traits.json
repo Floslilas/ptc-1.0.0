@@ -1,0 +1,32 @@
+[
+    //alchemist
+    { 
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "potionsMaker", "type": "positive", "attributes": {} }
+    },
+
+    //craftsman
+    {
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "goldenHands", "type": "positive", "attributes": {} }
+    },
+    {
+        "file":"game:config/traits.json", "op":"add", "path":"/-",
+        "value":{ "code":"tired", "type":"negative", "attributes":{ "rangedWeaponsDamage": -0.25, "meleeWeaponsDamage": -0.15, "maxhealthExtraPoints": -3} }
+    },
+    //knght
+    {
+        "file":"game:config/traits.json", "op":"add", "path":"/-",
+        "value":{"code": "fighter", "type": "positive", "attributes": { "maxhealthExtraPoints": 5 }}
+    },
+
+    //miner
+    {
+        "file":"game:config/traits.json", "op":"add", "path":"/-",
+        "value":{ "code": "heavyHand", "type": "positive", "attributes":{"meleeWeaponsDamage": 0.1}}
+    },
+    {
+        "file":"game:config/traits.json", "op":"add", "path":"/-",
+        "value":{ "code": "theMiner", "type": "positive", "attributes":{"oreDropRate": 0.6, "miningSpeedMul": 0.4}}
+    }
+]
