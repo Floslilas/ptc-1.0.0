@@ -5,10 +5,10 @@
         "value":{ "code": "potionsMaker", "type": "positive", "attributes": {} }
     },
 
-    //craftsman
+    //boooom
     {
         "file": "game:config/traits.json", "op": "add", "path": "/-",
-        "value":{ "code": "goldenHands", "type": "positive", "attributes": {} }
+        "value":{ "code": "bomb", "type": "positive", "attributes": {} }
     },
     {
         "file":"game:config/traits.json", "op":"add", "path":"/-",

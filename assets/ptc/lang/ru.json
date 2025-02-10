@@ -1,4 +1,15 @@
 {
-    "game:tabname-allclasses": "ptc",
-    "game:characterdesc-alchemist": "Алхимик"
+    "game:characterdesc-alchemist": "Жидкая радость, разлитая по колбам любовь, дистиллированная ненависть",
+    "game:characterclass-alchemist": "Алхимик",
+    "game:trait-potionsMaker": "Зельевар",
+    "game:characterdesc-knight": "Честь и гордость",
+    "game:characterclass-knight": "Рыцарь",
+    "game:trait-fighter": "В здоровом теле...",   
+    "game:characterdesc-miner": "*стук* *стук* *стук*",
+    "game:characterclass-miner": "Шахтёр",
+    "game:trait-theMiner": "Рудокоп",
+    "game:trait-tired": "Усталый",
+    "game:characterdesc-booomMaster": "Там в академии были правы, вам не научится \" чему то большему\", но разве нужно что то большее?",
+    "game:characterclass-booomMaster": "Подрывник",
+    "game:trait-bomb": "BOOOOM!!"
 }

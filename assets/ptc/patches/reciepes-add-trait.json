@@ -1,10 +1,34 @@
 [
-     //golden hands
+     //boom
     {
-        "file": "alchemy:recipes/grid/tool/mortarpestle",
+        "file": "game:recipes/grid/bomb",
+		"op": "add",
+		"path": "/0/requiresTrait",
+        "value": "bomb"
+    },
+    {
+        "file": "game:recipes/grid/bomb",
 		"op": "add",
 		"path": "/1/requiresTrait",
-        "value": "goldenHands"
+        "value": "bomb"
+    },
+    {
+        "file": "game:recipes/grid/bomb",
+		"op": "add",
+		"path": "/2/requiresTrait",
+        "value": "bomb"
+    },
+    {
+        "file": "game:recipes/grid/bomb",
+		"op": "add",
+		"path": "/3/requiresTrait",
+        "value": "bomb"
+    },
+    {
+        "file": "game:recipes/grid/bomb",
+		"op": "add",
+		"path": "/4/requiresTrait",
+        "value": "bomb"
     },
 
     //potionsMaker

@@ -2,21 +2,33 @@
     {
         "file": "game:config/characterclasses",
         "op": "replace",
-        "path": "/3",
+        "path": "/4",
         "value":{
             "code": "alchemist",
             "traits": ["potionsMaker", "furtive", "frail", "claustrophobic", "kind"],
-            "gear":[]
+            "gear":[
+                {"type": "Item","code": "game:clothes-shoulder-alchemist"},
+                {"type": "Item", "code": "game:clothes-upperbody-lackey-shirt" },
+                {"type": "Item", "code": "game:clothes-lowerbody-minstrel-pants"},
+                {"type": "Item", "code": "game:clothes-foot-surgeon"},
+                {"type": "Item", "code": "game:clothes-hand-tailor-gloves"}
+            ]
         }
     },
     {
         "file": "game:config/characterclasses",
         "op": "replace",
-        "path": "/4",
+        "path": "/5",
         "value":{
             "code": "knight",
             "traits": ["merciless", "soldier", "fighter", "ravenous", "nearsighted"],
-            "gear":[]
+            "gear":[
+                {"type": "Item", "code": "game:clothes-waist-squire-belt" },
+                {"type": "Item", "code": "game:clothes-arm-leather-bracers" },
+                {"type": "Item", "code": "game:clothes-foot-survivor"},
+                {"type": "Item", "code": "game:clothes-lowerbody-squire-pants"},
+                {"type": "Item", "code": "game:clothes-upperbody-noble-shirt"}
+            ]
         }
     },
     {
@@ -24,9 +36,15 @@
         "op": "add",
         "path": "/6",
         "value":{
-            "code": "craftsman",
-            "traits": ["goldenHands", "tired", "tinkerer", "heavyhanded"],
-            "gear":[]
+            "code": "booomMaster",
+            "traits": ["bomb", "tinkerer", "heavyhanded"],
+            "gear":[
+                {"type": "Item", "code": "game:clothes-waist-heavy-tool-belt" },
+                {"type": "Item", "code": "game:clothes-foot-high-leather-boots"},
+                {"type": "Item", "code": "game:clothes-lowerbody-marketeer"},
+                {"type": "Item", "code": "game:clothes-upperbodyover-malefactor-tunic"},
+                {"type": "Item", "code": "game:clothes-shoulder-blacksmith-apron"}
+            ]
         }
     },
     {
@@ -36,7 +54,13 @@
         "value":{
             "code": "miner",
             "traits": ["tired", "theMiner", "kind", "improviser", "ravenous"],
-            "gear":[]
+            "gear":[
+                {"type": "Item", "code": "game:clothes-waist-miner"},
+                {"type": "Item", "code": "game:clothes-foot-miner"},
+                {"type": "Item", "code": "game:clothes-nadiya-upperbodyover-coat-short"},
+                {"type": "Item", "code": "game:clothes-lowerbody-commoner-trousers"},
+                {"type": "Item", "code": "game:clothes-upperbody-miner"}
+            ]
         }
     }
 ]
