@@ -1,6 +1,6 @@
 [
     {
-        "ingredientPattern": "AAA, BCD",
+        "ingredientPattern": "AAA,BCD",
         "width": 3,
         "height": 2,
         "ingredients": {
