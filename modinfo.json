@@ -5,6 +5,7 @@
   "description": "patch for server",
   "author": ["FlosLilac"],
   "version": "1.0.0",
+  "dependency": ["alchemy"],
   "RequiredOnClient": true,
   "RequiredOnServer": true,
   "gameversions": [ "1.20+" ]

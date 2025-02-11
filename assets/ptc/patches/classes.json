@@ -2,26 +2,55 @@
     {
         "file": "game:config/characterclasses",
         "op": "replace",
-        "path": "/4",
+        "path": "/1",
         "value":{
-            "code": "alchemist",
-            "traits": ["potionsMaker", "furtive", "frail", "claustrophobic", "kind"],
-            "gear":[
-                {"type": "Item","code": "game:clothes-shoulder-alchemist"},
-                {"type": "Item", "code": "game:clothes-upperbody-lackey-shirt" },
-                {"type": "Item", "code": "game:clothes-lowerbody-minstrel-pants"},
-                {"type": "Item", "code": "game:clothes-foot-surgeon"},
-                {"type": "Item", "code": "game:clothes-hand-tailor-gloves"}
-            ]
+            "code": "butcher",
+            "traits": ["pro", "civil", "sloppy"],
+            "gear":[]
+        }
+    },    {
+        "file": "game:config/characterclasses",
+        "op": "replace",
+        "path": "/2",
+        "value":{
+            "code": "archer",
+            "traits": ["focused", "fleetfooted", "bowyer", "farsighted", "claustrophobic"],
+            "gear":[]
         }
     },
     {
         "file": "game:config/characterclasses",
         "op": "replace",
-        "path": "/5",
+        "path": "/3",
+        "value":{
+            "code": "planter",
+            "traits": ["forager", "furtive", "fleetfooted", "farsighted", "kind"],
+            "gear":[]
+        }
+    },
+    {
+        "file": "game:config/characterclasses",
+        "op": "add",
+        "path": "/4",
+        "value":{
+            "code": "fireworker",
+            "traits": ["bomb", "LieDown", "badHobby", "heavyhanded"],
+            "gear":[
+                {"type": "Item", "code": "game:clothes-waist-heavy-tool-belt" },
+                {"type": "Item", "code": "game:clothes-foot-high-leather-boots"},
+                {"type": "Item", "code": "game:clothes-lowerbody-marketeer"},
+                {"type": "Item", "code": "game:clothes-upperbodyover-malefactor-tunic"},
+                {"type": "Item", "code": "game:clothes-shoulder-blacksmith-apron"}
+            ]
+        }
+    },
+    {
+        "file": "game:config/characterclasses",
+        "op": "add",
+        "path": "/6",
         "value":{
             "code": "knight",
-            "traits": ["merciless", "soldier", "fighter", "ravenous", "nearsighted"],
+            "traits": ["soldier", "goodPhysique","merciless", "ravenous", "nearsighted", "pride"],
             "gear":[
                 {"type": "Item", "code": "game:clothes-waist-squire-belt" },
                 {"type": "Item", "code": "game:clothes-arm-leather-bracers" },
@@ -36,14 +65,14 @@
         "op": "add",
         "path": "/6",
         "value":{
-            "code": "booomMaster",
-            "traits": ["bomb", "tinkerer", "heavyhanded"],
+            "code": "alchemist",
+            "traits": ["potionsMaker", "pilferer", "civil", "weak", "kind"],
             "gear":[
-                {"type": "Item", "code": "game:clothes-waist-heavy-tool-belt" },
-                {"type": "Item", "code": "game:clothes-foot-high-leather-boots"},
-                {"type": "Item", "code": "game:clothes-lowerbody-marketeer"},
-                {"type": "Item", "code": "game:clothes-upperbodyover-malefactor-tunic"},
-                {"type": "Item", "code": "game:clothes-shoulder-blacksmith-apron"}
+                {"type": "Item","code": "game:clothes-shoulder-alchemist"},
+                {"type": "Item", "code": "game:clothes-upperbody-lackey-shirt" },
+                {"type": "Item", "code": "game:clothes-lowerbody-minstrel-pants"},
+                {"type": "Item", "code": "game:clothes-foot-surgeon"},
+                {"type": "Item", "code": "game:clothes-hand-tailor-gloves"}
             ]
         }
     },
@@ -53,13 +82,37 @@
         "path":"/6",
         "value":{
             "code": "miner",
-            "traits": ["tired", "theMiner", "kind", "improviser", "ravenous"],
+            "traits": ["attention", "hardy", "ravenous", "nearsighted"],
             "gear":[
                 {"type": "Item", "code": "game:clothes-waist-miner"},
                 {"type": "Item", "code": "game:clothes-foot-miner"},
                 {"type": "Item", "code": "game:clothes-nadiya-upperbodyover-coat-short"},
                 {"type": "Item", "code": "game:clothes-lowerbody-commoner-trousers"},
                 {"type": "Item", "code": "game:clothes-upperbody-miner"}
+            ]
+        }
+    },
+    {
+        "file":"game:config/characterclasses",
+        "op":"add",
+        "path":"/6",
+        "value":{
+            "code": "royalBlood",
+            "traits": ["majesty", "frail"],
+            "gear":[
+
+            ]
+        }
+    },
+    {
+        "file":"game:config/characterclasses",
+        "op":"add",
+        "path":"/6",
+        "value":{
+            "code": "heretic",
+            "traits": ["precise", "technical", "stress", "dirtyBlood"],
+            "gear":[
+
             ]
         }
     }

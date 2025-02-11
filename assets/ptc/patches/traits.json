@@ -1,32 +1,50 @@
 [
-    //alchemist
-    { 
+    {
         "file": "game:config/traits.json", "op": "add", "path": "/-",
         "value":{ "code": "potionsMaker", "type": "positive", "attributes": {} }
     },
-
-    //boooom
     {
         "file": "game:config/traits.json", "op": "add", "path": "/-",
         "value":{ "code": "bomb", "type": "positive", "attributes": {} }
     },
     {
-        "file":"game:config/traits.json", "op":"add", "path":"/-",
-        "value":{ "code":"tired", "type":"negative", "attributes":{ "rangedWeaponsDamage": -0.25, "meleeWeaponsDamage": -0.15, "maxhealthExtraPoints": -3} }
-    },
-    //knght
-    {
-        "file":"game:config/traits.json", "op":"add", "path":"/-",
-        "value":{"code": "fighter", "type": "positive", "attributes": { "maxhealthExtraPoints": 5 }}
-    },
-
-    //miner
-    {
-        "file":"game:config/traits.json", "op":"add", "path":"/-",
-        "value":{ "code": "heavyHand", "type": "positive", "attributes":{"meleeWeaponsDamage": 0.1}}
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "pro", "type": "positive", "attributes": {"animalLootDropRate": 0.1, "animalHarvestingTime": -0.25, "meleeWeaponsDamage": 0.15} }
     },
     {
-        "file":"game:config/traits.json", "op":"add", "path":"/-",
-        "value":{ "code": "theMiner", "type": "positive", "attributes":{"oreDropRate": 0.6, "miningSpeedMul": 0.4}}
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "sloppy", "type": "negative", "attributes": {"armorDurabilityLoss": 0.1} }
+    },
+    {
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "LieDown", "type": "positive", "attributes": {"walkspeed": 0.1} }
+    },
+    {
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "badHobby", "type": "negative", "attributes": {"maxhealthExtraPoints": -2.5, "bowDrawingStrength": -0.2} }
+    },
+    {
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "goodPhysique", "type": "positive", "attributes": {"maxhealthExtraPoints": 5} }
+    },
+    {
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "pride", "type": "negative", "attributes": {"miningSpeedMul": -0.1} }
+    },
+    {
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "attention", "type": "positive", "attributes": {"oreDropRate": 0.30} }
+    },
+    {
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "majesty", "type": "positive", "attributes": {} }
+    },
+    {
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "stress", "type": "negative", "attributes": {"hungerrate": -0.3} }
+    },
+    {
+        "file": "game:config/traits.json", "op": "add", "path": "/-",
+        "value":{ "code": "dirtyBlood", "type": "", "attributes": {"meleeWeaponsDamageMul": 0.9} }
     }
 ]

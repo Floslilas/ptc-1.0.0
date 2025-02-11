@@ -1,0 +1,14 @@
+[
+    {
+        "ingredientPattern": "AAA, BCD",
+        "width": 3,
+        "height": 2,
+        "ingredients": {
+            "A": {"type": "item", "code": "game:gem-*-rough", "quantity": 3},
+            "B": {"type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 10 },
+            "C": {"type": "item", "code": "game:metalplate-gold", "quantity": 1},
+            "D": {"type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 40 }
+        },
+        "output": { "type": "item", "code": "game:clothes-head-crown", "quantity": 1}
+    }
+]
